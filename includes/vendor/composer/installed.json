@@ -1,0 +1,125 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
+            "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-02-24T04:21:34+00:00",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "cakephp",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "freemius/wordpress-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Freemius/wordpress-sdk.git",
+            "reference": "a4cc02a705639bcc64b5b55b8732432986b1b228"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/a4cc02a705639bcc64b5b55b8732432986b1b228",
+            "reference": "a4cc02a705639bcc64b5b55b8732432986b1b228",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2019-02-25T18:19:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "GPL-3.0-only"
+        ],
+        "description": "Freemius WordPress SDK",
+        "homepage": "https://freemius.com",
+        "keywords": [
+            "freemius",
+            "plugin",
+            "sdk",
+            "wordpress"
+        ],
+        "support": {
+            "source": "https://github.com/Freemius/wordpress-sdk/tree/2.2.4",
+            "issues": "https://github.com/Freemius/wordpress-sdk/issues"
+        }
+    }
+]

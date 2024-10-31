@@ -1,0 +1,27 @@
+{
+  "name": "fullworks/preprocess-dezrez",
+  "description": "Wordpress plugin",
+  "type": "wordpress-plugin",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "alan",
+      "email": "alan@fullworks.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "vendor-dir": "includes/vendor"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Freemius/wordpress-sdk"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "composer/installers": "v1.0.12",
+    "freemius/wordpress-sdk": "dev-master"
+  }
+}
